@@ -1,0 +1,8 @@
+services:
+  # name of the service
+  weather-mcp-server:
+    # name of the container
+    container_name: weather_mcp_app
+
+    # build an image from the current directory
+    build: .
